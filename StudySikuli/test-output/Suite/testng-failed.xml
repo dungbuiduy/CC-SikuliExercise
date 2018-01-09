@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="-1" name="Failed suite [Suite]">
+  <test name="CocCoc_Check(failed)">
+    <classes>
+      <class name="com.testSikuli.TestSikuli1">
+        <methods>
+          <include name="openFileTest"/>
+        </methods>
+      </class> <!-- com.testSikuli.TestSikuli1 -->
+    </classes>
+  </test> <!-- CocCoc_Check(failed) -->
+</suite> <!-- Failed suite [Suite] -->
