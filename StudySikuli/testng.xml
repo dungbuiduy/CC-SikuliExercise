@@ -3,8 +3,6 @@
   <test name="CocCoc_Check">
     <classes>
       <class name="CCBrowser_Windows.CocCoc_CheckInstall"/>
-    </classes>
-    <classes>
       <class name="com.testSikuli.TestSikuli1"/>
     </classes>
   </test> <!-- Test -->

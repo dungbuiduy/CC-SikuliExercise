@@ -12,7 +12,7 @@ public class CocCoc_CheckInstall {
   @Test
   public void checkCocCocShortcut() throws FindFailed, InterruptedException {
 	  Screen s = new Screen();
-	  s.type("d", Key.WIN);
+//	  s.type("d", Key.WIN);
 	  s.exists("\\resources\\pictures\\CocCoc_Shortcut.png");
 	  System.out.println("Coc Coc shortcut added to desktop");
   }
