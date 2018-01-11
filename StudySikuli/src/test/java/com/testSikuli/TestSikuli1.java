@@ -12,7 +12,7 @@ public class TestSikuli1 {
   @Test
   public void openFileTest() throws FindFailed, InterruptedException {
 	  Screen s = new Screen();
-//	  s.type("d", Key.WIN);
+	  s.type("d", Key.WIN);
 	  s.exists("\\src\\main\\resources\\pictures\\Notepad_Shortcut.png");
 	  s.doubleClick("\\src\\main\\resources\\pictures\\Notepad_Shortcut.png");
 	  System.out.println("Notepad shortcut added to desktop");

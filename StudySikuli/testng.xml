@@ -2,8 +2,13 @@
 <suite name="Suite" parallel="false">
   <test name="CocCoc_Check">
     <classes>
+      <!-- 
       <class name="CCBrowser_Windows.CocCoc_CheckInstall"/>
+       -->
+       <!--
       <class name="com.testSikuli.TestSikuli1"/>
+      -->
+      <class name="CCBrowser_Windows.CocCoc_Omahacheck"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
