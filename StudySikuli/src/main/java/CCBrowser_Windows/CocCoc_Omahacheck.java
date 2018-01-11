@@ -19,14 +19,14 @@ public class CocCoc_Omahacheck {
 	  Screen s = new Screen();
 	  Settings set = new Settings();
 	 
-	  s.type("d", Key.WIN);
+//	  s.type("d", Key.WIN);
 	  s.type("r", Key.WIN);
 	  set.MoveMouseDelay = 1;
 	  s.type(Key.DELETE); 
+	  s.type("src\\main\\resources\\pictures\\CocCoc_OpenRunWindows.png", "%localappdata%");
+	  set.MoveMouseDelay = 1;
+	  s.type(Key.ENTER);
 	  try {
-		  s.type("src\\main\\resources\\pictures\\CocCoc_OpenRunWindows.png", "%localappdata%");
-		  set.MoveMouseDelay = 1;
-		  s.type(Key.ENTER);
 		  s.find("src\\main\\resources\\pictures\\CocCoc_FolderCC.png");
 		  set.MoveMouseDelay = 1;
 		  s.doubleClick("src\\main\\resources\\pictures\\CocCoc_FolderCC.png");
@@ -34,15 +34,15 @@ public class CocCoc_Omahacheck {
 		  s.doubleClick("src\\main\\resources\\pictures\\CocCoc_FolderUpdate.png");
 		  set.MoveMouseDelay = 1;
 		  s.exists("src\\main\\resources\\pictures\\CocCoc_Omaha.png");
-		  System.out.println("==============================");
-		  System.out.println("|     <Check Omaha done>     |");
-		  System.out.println("==============================");
+		  System.out.println("================================");
+		  System.out.println("|     < Check Omaha done >     |");
+		  System.out.println("================================");
 	  }
 	  catch (FindFailed e) {
 		  e.printStackTrace();
-	  	  System.out.println("==============================");
-	      System.out.println("|   < Pictures not found >   |");
-	      System.out.println("==============================");
+	  	  System.out.println("=============================================");
+	      System.out.println("|   < CocCoc doesn't install on your PC >   |");
+	      System.out.println("=============================================");
 	      }
 	      
  }  

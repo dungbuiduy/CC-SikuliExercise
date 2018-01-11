@@ -1,13 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="9612" started-at="2018-01-11T08:14:58Z" finished-at="2018-01-11T08:15:08Z">
+  <suite name="Suite" duration-ms="9008" started-at="2018-01-11T08:46:44Z" finished-at="2018-01-11T08:46:53Z">
     <groups>
     </groups>
-    <test name="CocCoc_Check" duration-ms="9612" started-at="2018-01-11T08:14:58Z" finished-at="2018-01-11T08:15:08Z">
+    <test name="CocCoc_Check" duration-ms="9008" started-at="2018-01-11T08:46:44Z" finished-at="2018-01-11T08:46:53Z">
+      <class name="CCBrowser_Windows.CocCoc_CheckInstall">
+        <test-method status="PASS" signature="checkCocCocShortcut()[pri:0, instance:CCBrowser_Windows.CocCoc_CheckInstall@735f7ae5]" name="checkCocCocShortcut" duration-ms="1260" started-at="2018-01-11T15:46:44Z" finished-at="2018-01-11T15:46:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkCocCocShortcut -->
+      </class> <!-- CCBrowser_Windows.CocCoc_CheckInstall -->
       <class name="CCBrowser_Windows.CocCoc_Omahacheck">
-        <test-method status="PASS" signature="checkOmahaClient()[pri:0, instance:CCBrowser_Windows.CocCoc_Omahacheck@17550481]" name="checkOmahaClient" duration-ms="9592" started-at="2018-01-11T15:14:58Z" finished-at="2018-01-11T15:15:08Z">
+        <test-method status="PASS" signature="checkOmahaClient()[pri:0, instance:CCBrowser_Windows.CocCoc_Omahacheck@2c6a3f77]" name="checkOmahaClient" duration-ms="7737" started-at="2018-01-11T15:46:45Z" finished-at="2018-01-11T15:46:53Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkOmahaClient -->
